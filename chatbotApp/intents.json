@@ -1,0 +1,162 @@
+{
+  "intents": [
+    {
+      "tag": "questions",
+      "patterns": [
+        "what products do you sell",
+        "what are the products available",
+        "list available products"
+      ],
+      "responses": [
+        "we have [('Mango',), ('Pinapple',), ('Stool',), ('Lap top',)] available"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fruit",
+      "patterns": [
+        "is Mango available"
+      ],
+      "responses": [
+        " Mango is available"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fruit",
+      "patterns": [
+        "is Pinapple available"
+      ],
+      "responses": [
+        " Pinapple is available"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "furniture",
+      "patterns": [
+        "is Stool available"
+      ],
+      "responses": [
+        " Stool is available"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Technology",
+      "patterns": [
+        "is Lap top available"
+      ],
+      "responses": [
+        " Lap top is available"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Mango",
+      "patterns": [
+        " price Mango"
+      ],
+      "responses": [
+        "65 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Pinapple",
+      "patterns": [
+        " price Pinapple"
+      ],
+      "responses": [
+        "50 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Table",
+      "patterns": [
+        " price Table"
+      ],
+      "responses": [
+        "2300 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Stool",
+      "patterns": [
+        " price Stool"
+      ],
+      "responses": [
+        "300 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Lap top",
+      "patterns": [
+        " price Lap top"
+      ],
+      "responses": [
+        "34000 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "orange",
+      "patterns": [
+        " price orange"
+      ],
+      "responses": [
+        "56 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "apple",
+      "patterns": [
+        " price apple"
+      ],
+      "responses": [
+        "70 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cherry",
+      "patterns": [
+        " price cherry"
+      ],
+      "responses": [
+        "100 rupees"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}

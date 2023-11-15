@@ -1,0 +1,39 @@
+
+creating database
+1. 'models.py' is a inbuilt file in django .used to ceate database 
+2. product database is created in models(database is sqlite)
+3. database is connected to admin so that we can add or remove products through admin ,new product added
+ new product added
+
+importing sqlite data to project
+1."dataimport.py" is created for this purpose
+2.data is imported with the help of cursor and connect function
+
+3.data is accessed with respect to the conditions provided with the help of sql queries
+4.it is then added to a json source file "intents.json" for training purpose ,data imported
+
+data training
+1.data training is done in train.py , to train -py train.py ,training done
+
+views.py
+1.this is a inbuilt file in django .used to write functions
+2.the index fuction in this file loads base.html page and gets the user input from base.htl ,and it passes the input to a fuction called 'question'
+ which is in 'chatbot.py' for appropriate response
+3.the response is then passed to base.html
+
+checking best responses
+1.'chatbot.py' recieves user input from views and produce appropriate response with respect to it
+
+static,template files
+1.template file contains html contents of the page and static sontains js,css files of that page
+
+how to run
+1.to migrate database
+run commands 'py manage.py makemigrations'
+'py manage.py migrate'
+
+2.to import database run 'py dataimport.py'
+
+3.to train 'py train.py'
+
+4.to run the app 'py manage.py runserver'
